@@ -77,6 +77,11 @@ set synmaxcol=220                           " Don't try to syntax highlight mini
 
 set number relativenumber
 
+set tabstop=2
+set shiftwidth=2
+set shiftround
+set expandtab
+
 " Stop cursor from jumping over wrapped lines
 nnoremap j gj
 nnoremap k gk
