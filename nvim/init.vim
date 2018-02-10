@@ -24,6 +24,7 @@ if dein#load_state('/home/dez/.local/share/dein')
   call dein#add("tpope/vim-surround")
   call dein#add("junegunn/vim-peekaboo")
   call dein#add("docker/docker")
+  call dein#add("chr4/nginx.vim")
 
   " Required:
   call dein#end()
